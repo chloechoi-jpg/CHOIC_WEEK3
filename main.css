@@ -3,6 +3,10 @@
 .card__title { font-family: "engria", sans-serif; font-weight: 700; font-style: normal; font-size: 5rem; margin: 1rem; text-align: center; }
 .card__excerpt { font-family: "engria", sans-serif; font-weight: 400; font-style: normal; color: #666; margin: 0 1rem 1rem; }
 .card__image { width: 100%; height: auto; display: block; }
-.card__more { display: block; width: 100%; padding: 1rem; margin: 0; background: #0066cc; color: white; text-decoration: none; border-radius: 0; cursor: pointer; transition: all 0.2s ease; text-align: center; font-family: "engria", sans-serif; font-weight: 600; border: none; }
+.card__details { width: 100%; }
+.card__more { display: block; width: 100%; padding: 1rem; margin: 0; background: #0066cc; color: white; border: none; border-radius: 0; cursor: pointer; transition: all 0.2s ease; text-align: center; font-family: "engria", sans-serif; font-weight: 600; font-size: 1rem; list-style: none; }
 .card__more:hover { background: #00a372; }
 .card__more:active { background: #004d99; }
+.card__more::-webkit-details-marker { display: none; }
+.card__content { background: #f9f9f9; padding: 1rem; border-top: 1px solid #ddd; }
+.card__content p { font-family: "engria", sans-serif; font-weight: 400; font-style: normal; color: #333; margin: 0; line-height: 1.6; }
