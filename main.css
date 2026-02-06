@@ -1,7 +1,7 @@
-.card { border: 1px solid #ddd; border-radius: 8px; overflow: hidden; transition: box-shadow 0.3s ease; }
+.card { border: 1px solid #fff2d7; border-radius: 8px; overflow: hidden; transition: box-shadow 0.3s ease; }
 .card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
 .card__title { font-family: "engria", sans-serif; font-weight: 700; font-style: normal; font-size: 5rem; margin: 1rem; text-align: center; }
-.card__excerpt { color: #666; margin: 0 1rem 1rem; }
+.card__excerpt { font-family: "engria", sans-serif; font-weight: 400; font-style: normal; color: #666; margin: 0 1rem 1rem; }
 .card__image { width: 100%; height: auto; display: block; }
 .card__more { display: block; margin: 1rem auto; padding: 0.5rem 1rem; background: #0066cc; color: white; text-decoration: none; border-radius: 4px; cursor: pointer; transition: all 0.2s ease; text-align: center; }
-.card__more:hover { background: #0052a3; transform: scale(1.05); }
+.card__more:hover { background: #00a372; transform: scale(1.05); }
